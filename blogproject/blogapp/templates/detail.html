@@ -19,7 +19,7 @@
         작성자: {{blog.writer}}<br>
         날짜: {{blog.pub_date}}<br><hr>
         {{blog.body}}<br>
-        <img src="{{blog.img.url}}" alt="" class="img">
+        
     </div>
     <a href="{% url 'edit' blog.id %}">Edit</a>
     <a href="{% url 'delete' blog.id %}">Delete</a>
